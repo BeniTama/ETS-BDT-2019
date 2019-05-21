@@ -18,7 +18,7 @@ Pada mySQL cluster ini, digunakan empat cluster, dengan keterangan sebagai berik
 | 4 | 192.168.33.14 | clusterdb4 | Load Balancer (ProxySQL) |
 
 Instalasi Wordpress dilakukan setelah melakukan instalasi dan konfigurasi untuk MySQL Cluster. Dokumentasinya dapat didapatkan pada tugas sebelumnya:
-[tugas_1_implementasi-mysql-cluster]()
+[Tugas 1: Implementasi MySQL Cluster](https://github.com/BeniTama/MySQL-Cluster-with-Load-Balancer)
 
 ## 2. Instalasi Wordpress
 
