@@ -58,16 +58,23 @@ Setelah instalasi wordpress berhasil dilakukan, pengguna dapat mulai mengoperasi
 ## 3. Simulasi Fail-over Pada Cluster
 
 Dibagian ini akan dilakukan simulasi fail-over pada cluster. Dibawah ini adalah status bahwa semua node menyala dan terkoneksi dengan baik.
+
 ![](/pictures/testing-1.PNG)
 
 Pengujian dilakukan dengan mematikan salah satu node. Pada kasus ini node clusterdb3 dimatikan.
+
 ![](/pictures/testing-2.PNG)
 
 Ketika node clusterdb3 dimatikan, otomatis node yang berjalan adalah clusterdb2.
+
 ![](/pictures/testing-3.PNG)
+
 Setelah melakukan posting saat clusterdb3 dimatikan, clusterdb3 dinyalakan kembali, kemudian clusterdb2 dimatikan.
+
 ![](/pictures/testing-4.PNG)
+
 Saat membuka wordpress, hasil post saat clusterdb3 dimatikan masih dapat muncul. Hal ini berarti replikasi berhasil dilakukan.
+
 ![](/pictures/testing-5.PNG)
 
 ## 4. Pengukuran Response Time Menggunakan J-Meter
